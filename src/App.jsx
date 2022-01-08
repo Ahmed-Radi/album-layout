@@ -12,7 +12,7 @@ const App = () => {
             <CssBaseline />
             <AppBar posotion="relative">
                 <Toolbar>
-                    <PhotoCamera classNme={classes.icon}/>
+                    <PhotoCamera className={classes.icon}/>
                     <Typography variant="h6">Photo Album</Typography>
                 </Toolbar>
             </AppBar>
@@ -23,7 +23,7 @@ const App = () => {
                         <Typography variant="h6" color="textSecondary" align="center" paragraph>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores incidunt, facilis repellendus corporis dolores quisquam?
                         </Typography>
-                        <div classNme={classes.buttons}>
+                        <div className={classes.buttons}>
                             <Grid container spacing={2} justify="center">
                                 <Grid item>
                                     <Button variant="contained" color="primary">

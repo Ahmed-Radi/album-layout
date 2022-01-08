@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
         marginTop: '40px'
     },
     cardGrid: {
-        padding: '20px auto'
+        // padding: '20px auto'
     },
     card: {
         height: '100%',
